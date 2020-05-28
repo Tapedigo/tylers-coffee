@@ -1,4 +1,18 @@
+/* Base Styles */
+/* Images */
 .photo-1 {
-    height: 300px;
+    height: 28em;
     width: auto;
+}
+
+.photo-2 {
+    height: 28em;
+    width: auto;
+}
+
+/* Text */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
 }
