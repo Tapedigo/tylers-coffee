@@ -1,18 +1,79 @@
 /* Base Styles */
+* { 
+    margin: 0 0;
+    padding: 0 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+p {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.main-header {
+    background-color: #D68B3C ;
+    height: 15em;
+    width: auto;
+    padding-bottom: 3em;
+    margin-bottom: 1em;
+}  
+
+.main-nav {
+    font-size: 1.1em;
+}
+
+.main-nav li {
+   text-align: center;
+   padding-top: 0.7em;
+   padding-bottom: 0.7em;
+}
+
+footer {
+    padding-left: 1.5em;
+    padding-top: 1.5em;
+    height: 1.5em;
+    background-color: darkgrey;
+}
+
 /* Images */
 .photo-1 {
-    height: 28em;
-    width: auto;
+    width: 459.2px;
+    height: 306.4px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .photo-2 {
     height: 28em;
-    width: auto;
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
-/* Text */
+@media (min-width: 800px)
+{
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-
+    
 }
