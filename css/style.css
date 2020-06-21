@@ -60,18 +60,15 @@ footer {
 
 @media (min-width: 800px)
 {
-p {
+.content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 45%;
     justify-content: flex-start;
 }
 
-/* .secondary-content {
-    display: flex;
-    flex-direction: row;
-    width: 45%;
-    justify-content: flex-start;
-} */
+.content {
     
+}
+
 }
