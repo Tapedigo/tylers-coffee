@@ -73,7 +73,7 @@ textarea {
 
 .form {
     background-color: slategray;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     padding-top: 1em;
 }
@@ -83,18 +83,19 @@ textarea {
 }
 
 .form h3 {
-    margin-bottom: .25em;
+    margin-bottom: 1em;
 }
 
 
 .txt {
-    width: 35em;
+    width: 15em;
     margin-bottom: 1em;
 }
 
 
 .radio-text {
     padding-right: 1em;
+    padding-left: .5em;
 }
 
  .submit {
@@ -110,6 +111,8 @@ textarea {
         padding-top: 1em;
     }
 
+
+
     .main-header h1 {
         margin-left: 1.5em;
         padding-top: 0;
@@ -117,7 +120,7 @@ textarea {
 
     .main-header {
         display: flex;
-        height: 2em;
+        height: 1em;
     }
 
     .main-nav {
@@ -143,4 +146,7 @@ textarea {
     }
 
 
+    .txt {
+        width: 35em;
+    }
 }
