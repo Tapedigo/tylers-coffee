@@ -26,14 +26,16 @@ h2 {
 p {
     padding-left: 1.5em;
     padding-right: 1.5em;
+    margin-bottom: 3em;
+    margin-top: 1em;
 }
 
 .main-header {
-    background-color: #D68B3C ;
+    background-color: #2b8a78 ;
     height: 15em;
     width: auto;
     padding-bottom: 3em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }  
 
 .main-nav {
@@ -54,26 +56,22 @@ footer {
 }
 
 /* Images */
-.photo-1 {
-    width: 459.2px;
-    height: 306.4px;
-    display: block;
-    margin: 0 auto;
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
 
-.photo-2 {
-    height: 28em;
-    width: 95%;
-    display: block;
-    margin: 0 auto;
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
 
 @media (min-width: 800px)
 {
+p {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    justify-content: flex-start;
+}
 
+/* .secondary-content {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    justify-content: flex-start;
+} */
     
 }
