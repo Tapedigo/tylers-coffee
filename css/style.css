@@ -73,16 +73,17 @@ textarea {
 
 form {
     background-color: slategray;
-    padding-top: 1em;
+    padding: 1em 0 0 1em;
+    margin: 0 auto 2em;
+    max-width: 20em;
 }
 
 label {
-    padding-left: .5em;
+    padding-left: .25em;
 }
 
-input[type="radio"] {
-    text-align: ;
-}
+
+/* Form Classes */
 
 .form input {
     margin-bottom: 2em;
@@ -94,15 +95,15 @@ input[type="radio"] {
 
 
 .txt {
-    width: 15em;
-    margin-bottom: 1em;
+    width: 95%;
+    
 }
 
 
  .submit {
      width: 5em;
      height: 2em;
-     margin: auto;
+     margin: 1em 0;
  }
 
 /* Media Querys */
@@ -113,6 +114,10 @@ input[type="radio"] {
         padding-top: 1em;
     }
 
+    form {
+        max-width: 35em;
+        padding-top: 1em;
+    }
 
     .main-header h1 {
         margin-left: 1.5em;
@@ -146,8 +151,4 @@ input[type="radio"] {
         flex: 1;
     }
 
-
-    .txt {
-        width: 35em;
-    }
 }
