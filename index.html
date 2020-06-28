@@ -7,18 +7,21 @@
     <title>Tyler's Coffee Shop</title>
 </head>
 <body>
-    <!-- main-header -->
-    <nav class="main-header">
+    <!-- Main-header -->
+    <header class="main-header" role="banner">
         <h1>Tylers Coffee Shop</h1>
-        <ul class = "main-nav">
+        <!-- Navigation -->
+        <nav class = "main-nav" role="navigation">
+        <ul>
             <a href="#"><li>Order Online</li></a>
             <a href="#"><li>Menu</li></a>
             <a href="#"><li>Employment</li></a>
             <a href="#"><li>Contact Us</li></a>
         </ul>
-    </nav>
-        <!-- about us section -->
-        <div class="content">
+        </nav>
+    </header>
+        <!-- About us section -->
+        <main class="content" role="complementary">
             <article class="box-1">
                 <h2>Best Coffee In The Derby City</h2>
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis nisl vitae nisl volutpat convallis. Curabitur eget molestie
@@ -50,8 +53,8 @@
                     mattis. Integer eleifend tortor nec odio suscipit, mollis tempus ex faucibus. Suspendisse non lacus ex. Cras leo ex,
                     auctor nec odio sed, facilisis consequat sem. Nulla facilisi. </p>
                 </article>
-        </div>
-   <!-- form elememt -->
+            </main>
+   <!-- Form elememt -->
     <form class="form">
         <label for="f-name"><h3>First Name:</h3></label>
         <input type="text" class="txt">
@@ -63,7 +66,7 @@
         <textarea class="txt"></textarea><br>
         <input type="submit" class="submit">
     </form>
-    
-    <footer>&copy; 2020 Tyler Pedigo Media</footer>
+    <!-- Footer -->
+    <footer role="contentinfo">&copy; 2020 Tyler Pedigo Media</footer>
 </body>
 </html>

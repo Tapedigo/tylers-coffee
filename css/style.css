@@ -44,7 +44,7 @@ footer {
 
 /* Classes */
 
-nav {
+header {
     background-color: #000 ;
     height: 15em;
     width: auto;
@@ -54,11 +54,11 @@ nav {
 }  
 
 
-nav ul {
+header ul {
     padding-top: 1em;
 }
 
-nav li {
+header li {
    text-align: center;
    padding-top: 0.7em;
    padding-bottom: 1em;
@@ -112,7 +112,7 @@ label {
 @media (min-width: 830px) {
     
     .main-header,
-    .main-nav {
+    .main-nav ul{
         display: flex;
     }
 
@@ -132,15 +132,15 @@ label {
         align-items: center;
     }
 
-    nav {
+    header {
         padding-top: 1em;
     }
 
-    nav ul {
+    header ul {
         padding-top: 1;
     }
 
-    nav li {
+    header li {
         padding-left: 5em;
         padding-top: 0;
         padding-bottom: 0;
