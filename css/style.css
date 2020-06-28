@@ -16,7 +16,6 @@ a {
 h1 {
     text-align: center;
     padding-top: 1em;
-    padding-bottom: 0.5em;
     color: #ffffff;
 }
 
@@ -45,22 +44,24 @@ footer {
 
 /* Classes */
 
-.main-header {
+nav {
     background-color: #000 ;
     height: 15em;
     width: auto;
     padding-bottom: 3em;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
+    font-size: 1.1em;
 }  
 
-.main-nav {
-    font-size: 1.1em;
+
+nav ul {
+    padding-top: 1em;
 }
 
-.main-nav li {
+nav li {
    text-align: center;
    padding-top: 0.7em;
-   padding-bottom: 0.7em;
+   padding-bottom: 1em;
 }
 
 /* Forms */
@@ -110,8 +111,9 @@ label {
 
 @media (min-width: 830px) {
     
-    header {
-        padding-top: 1em;
+    .main-header,
+    .main-nav {
+        display: flex;
     }
 
     form {
@@ -119,24 +121,29 @@ label {
         padding-top: 1em;
     }
 
-    .main-header h1 {
+    h1 {
         margin-left: 1.5em;
         padding-top: 0;
     }
 
     .main-header {
-        display: flex;
-        height: 1em;
+        height: 2em;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .main-nav {
-        display: flex;
-        margin-left: auto;
-        margin-right: 3em;
+    nav {
+        padding-top: 1em;
     }
 
-    .main-nav li {
-        padding-left: 1.5em;
+    nav ul {
+        padding-top: 1;
+    }
+
+    nav li {
+        padding-left: 5em;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     .content {
@@ -145,10 +152,13 @@ label {
 
     .box-1 {
         flex: 1;
+        flex-direction: column;
     }
 
     .box-2 {
         flex: 1;
+        flex-direction: column;
     }
 
 }
+
