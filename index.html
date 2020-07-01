@@ -60,13 +60,23 @@
         <input type="text" class="txt">
         <label for="l-name"><h3>Last Name</h3></label>
         <input type="text" class="txt"><br>
-        <input type="radio" id="Unsatisfactory" name="option"><label>Unsatisfactory</label><br>
-        <input type="radio" id="Satisfactory" name="option"><label>Satisfactory</label><br>
-        <input type="radio" id="Very Satisfactory" name="option"><label>Very Satisfactory</label><br>
+        <ul>
+            <li>
+                <input type="radio" id="unsatisfactory" name="option" class="rd-btn"><label class="text-label">Unsatisfactory</label>
+            </li>
+            <li class="satisfactory">
+                <input type="radio" id="satisfactory" name="option" class="rd-btn"><label class="text-label">Satisfactory</label>
+            </li>
+            <li>
+                <input type="radio" id="very-satisfactory" name="option" class="rd-btn"><label class="text-label">Very Satisfactory</label>
+            </li>
+        </ul>
+        <label><h3>Comments</h3></label>
         <textarea class="txt"></textarea><br>
         <input type="submit" class="submit">
+        
     </form>
     <!-- Footer -->
-    <footer role="contentinfo">&copy; 2020 Tyler Pedigo Media</footer>
+    <footer role="contentinfo"><p>&copy; 2020 Tyler Pedigo Media</p></footer>
 </body>
 </html>
