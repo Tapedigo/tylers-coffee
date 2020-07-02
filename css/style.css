@@ -18,6 +18,7 @@ a {
 .main-header h1 {
     text-align: center;
     color: #ffffff;
+    padding-top: 1rem;
 }
 
 ul {
@@ -270,6 +271,10 @@ a:active {
     .main-header {
         flex-direction: column;
         align-items: center;
+    }
+
+    .main-header h1 {
+        padding-top: 0rem;
     }
 
     .main-header,
