@@ -15,9 +15,8 @@ a {
     color: white;
 }
 
-h1 {
+.main-header h1 {
     text-align: center;
-    padding-top: 1.5rem;
     color: #ffffff;
 }
 
@@ -48,6 +47,7 @@ header {
     padding-bottom: 3em;
     margin-bottom: 2em;
     font-size: 1.1em;
+    font-family: old-century;
 }  
 
 
@@ -134,11 +134,12 @@ form li {
 }
 
 .fa {
-    width: 50px;
+    width: 40px;
     font-size: 30px;
     text-decoration: none;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
+    height: auto;
 }
 
 .fa-facebook {
@@ -158,6 +159,9 @@ form li {
 
 .social-nav {
     margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: .5em;
 }
 
 .social-nav a {
