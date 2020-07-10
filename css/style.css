@@ -66,6 +66,10 @@ footer {
     padding-top: 1rem;
 }
 
+.content {
+    margin-top: 3rem;
+}
+
 .content h2 {
     padding-left: 5%;
     padding-right: 5%;
@@ -77,16 +81,33 @@ footer {
     margin-bottom: 3em;
     margin-top: 1em;
 }
-
 /* Images */
 
-#img-1 {
-    width: 95%;
+.c-img {
+    width: 100%;
 }
 
-.photo-1 {
-    text-align: center;
-    padding-bottom: 3em;
+#second-img {
+    width: 100%;
+    max-width: 960px;
+    max-height: 540px;
+}
+
+/* Images Carousel */
+
+.carousel {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    max-width: 960px;
+    max-height: 540px;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 100%;
 }
 
 /* Form Elements */
@@ -252,9 +273,8 @@ a:active {
 
     /* Images Media Query 1 */
 
-    #img-1 {
-        width: 80%;
-    }
+   
+
 
     /* Classes Media Query 1 */
 
@@ -323,11 +343,6 @@ a:active {
 
     /* Images Media Query 2 */
 
-    #img-1 {
-        width: 80%;
-        max-height: 1328px;
-        max-width: 885.33px;
-    }
     form {
         max-height: 512px;
         max-width: 1040px;
