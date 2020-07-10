@@ -83,32 +83,13 @@ footer {
 }
 /* Images */
 
-.c-img {
-    width: 100%;
-}
 
-#second-img {
-    width: 100%;
-    max-width: 960px;
-    max-height: 540px;
-}
 
 /* Images Carousel */
 
-.carousel {
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1rem;
-    overflow: hidden;
-    max-width: 960px;
-    max-height: 540px;
-}
 
-.carousel-slide {
-    display: flex;
-    width: 100%;
-}
+
+
 
 /* Form Elements */
 
