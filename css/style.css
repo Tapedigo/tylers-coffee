@@ -83,11 +83,26 @@ footer {
 }
 /* Images */
 
-
+.c-img {
+    width: 100%;
+}
 
 /* Images Carousel */
 
+.carousel {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    max-height: 540px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.1);
+}
 
+.carousel-slide {
+    display: flex;
+    /* overflow: hidden; */
+    width: 100%;
+}
 
 
 
