@@ -91,19 +91,29 @@ footer {
 
 .carousel {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     max-width: 960px;
     max-height: 540px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* overflow: hidden; */
+    /* position: relative; */
 }
 
 .carousel-slide {
     display: flex;
-    /* overflow: hidden; */
     width: 100%;
 }
 
+/* #prev {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+} */
 
 
 /* Form Elements */
