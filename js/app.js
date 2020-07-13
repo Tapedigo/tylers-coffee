@@ -25,7 +25,7 @@ nextBtn.addEventListener('click', () => {
 })
 
 prevBtn.addEventListener('click', () => {
-  if (counter <= 0) return;
+  if (counter <=0) return;
   carouselSlide.style.transition = 'transform 0.4s ease-in-out'
   counter--
   carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)'
@@ -38,7 +38,7 @@ carouselSlide.addEventListener('transitionend', () => {
     carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)'
   }
 
-  if (carouselImages[counter].id === '#firstClone') {
+  if (carouselImages[counter].id === 'firstClone') {
     carouselSlide.style.transition = "none"
     counter = carouselImages.length - counter
     carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)'
