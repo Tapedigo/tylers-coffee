@@ -1,3 +1,5 @@
 A project for Code Louisville
 
-Special thanks to Dev Ed for tutorial on image Carousel https://youtu.be/KcdBOoK3Pfw
+Used Swiper JS https://swiperjs.com/
+
+Special thanks to Adrian Twarog at https://www.youtube.com/c/AdrianTwarog/featured for Swiper JS tutorial

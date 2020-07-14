@@ -81,40 +81,30 @@ footer {
     margin-bottom: 3em;
     margin-top: 1em;
 }
+
 /* Images */
 
 .c-img {
+    height: 100%;
     width: 100%;
 }
 
 /* Images Carousel */
 
-.carousel {
-    width: 100%;
-    margin: auto;
+.swiper-container {
+    height: 95%;
+    width: 95%;
+    max-height: 580px;
     max-width: 960px;
-    max-height: 540px;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.1);
-    /* overflow: hidden;  */
-    /* position: relative; */
-} 
-
-.carousel-slide {
-    display: flex;
-    width: 100%;
 }
 
-/* #prev {
-    position: absolute;
-    top: 50%;
-    z-index: 10;
-    left: 5%;
-    font-size: 30px;
-    color: white;
-    opacity: 0.5;
-    cursor: pointer;
-}  */
-
+.swiper-slide {
+    background: #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
 
 /* Form Elements */
 

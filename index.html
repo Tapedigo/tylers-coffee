@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
-    <title>Tyler's Coffee Shop</title> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </head>
 <body>
     <!-- Main-header -->
@@ -22,20 +24,24 @@
     </header>
         <!-- About us section -->
         <!-- Image Carousel -->
-        <div class="carousel">
-            <!-- <button class="fas fa-arrow-left" id="prev"></button>
-            <button class="fas fa-arrow-right" id="next"></button> -->
-            <div class="carousel-slide">
-                <img src="https://via.placeholder.com/960x540.jpg" alt="placeholder" class="c-img" id="lastClone">
-                <img src="https://via.placeholder.com/960x540.jpg" alt="placeholder" class="c-img">
-                <img src="https://via.placeholder.com/960x540.jpg" alt="placeholder" class="c-img">
-                <img src="https://via.placeholder.com/960x540.jpg" alt="placeholder" class="c-img">
-                <img src="https://via.placeholder.com/960x540.jpg" alt="placeholder" class="c-img">
-                <img src="https://via.placeholder.com/960x540.jpg" alt="placeholder" class="c-img" id="firstClone">
-            </div>
-        </div>
-        <button id="prev">Prev</button>
-        <button id="next">Next</button>
+<div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="https://via.placeholder.com/960x580.jpg" class="c-img"></div>
+        <div class="swiper-slide"><img src="https://via.placeholder.com/960x580.jpg" class="c-img"></div>
+        <div class="swiper-slide"><img src="https://via.placeholder.com/960x580.jpg" class="c-img"></div>
+    </div>
+    <!-- Pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- Navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- Scrollbar -->
+    <div class="swiper-scrollbar"></div>
+</div>
         <!-- Main Content -->
         <main class="content">
             <article class="box-1">
