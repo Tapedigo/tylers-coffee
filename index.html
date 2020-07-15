@@ -6,9 +6,9 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
-<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </head>
 <body>
     <!-- Main-header -->
@@ -78,17 +78,22 @@
             </main>
    <!-- Form elememt -->
     <form class="form">
-        <h3><label id="f-name">First Name:</label></h3>
-        <input type="text" class="txt">
-        <h3><label id="l-name">Last Name</label></h3>
-        <input type="text" class="txt"><br>
-                <input type="radio" id="unsatisfactory" name="option" class="rd-btn"><label class="text-label">Unsatisfactory</label><br>
-                <input type="radio" id="satisfactory" name="option" class="rd-btn"><label class="text-label">Satisfactory</label><br>
-                <input type="radio" id="very-satisfactory" name="option" class="rd-btn"><label class="text-label">Very Satisfactory</label>
+        <div id="error"></div>
+        <div>
+            <h3><label id="f-name">Name:</label></h3>
+            <input type="text" class="txt">
+        </div>
+        <div>
+            <h3><label id="password">Password:</label></h3>
+            <input type="password" class="txt"><br>
+        </div>  
+            <h3><label>How was your visit?</label></h3>
+            <input type="radio" id="unsatisfactory" name="option" class="rd-btn"><label class="text-label">Unsatisfactory</label><br>
+            <input type="radio" id="satisfactory" name="option" class="rd-btn"><label class="text-label">Satisfactory</label><br>
+            <input type="radio" id="very-satisfactory" name="option" class="rd-btn"><label class="text-label">Very Satisfactory</label>
         <h3><label>Comments</label></h3>
         <textarea class="txt"></textarea><br>
         <input type="submit" class="submit">
-        
     </form>
     <!-- Footer -->
     <footer><p>&copy;2020 Tyler Pedigo Media</p>
@@ -97,7 +102,7 @@
         <a href="#" class="fa fa-twitter"></a>
         <a href="#" class="fa fa-google"></a>
         </nav>
-        <script src="js/app.js"></script>
     </footer>
+    <script src="js/app.js"></script>
 </body>
 </html>
