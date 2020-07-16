@@ -141,6 +141,7 @@ form li {
     width: 95%;
     margin: 0 auto;
     display: block;
+    height: 1.5rem;
 }
 
 .submit {

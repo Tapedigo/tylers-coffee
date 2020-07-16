@@ -12,16 +12,16 @@ var swiper = new Swiper('.swiper-container', {
   },
 });
 
-const name = document.querySelector('#name');
+const name = document.querySelector('#f-name');
 const password = document.querySelector('#password');
 const form = document.querySelector('.form');
 const errorElement = document.querySelector('#error');
 
 form.addEventListener('submit' , (e) => {
   let messages = []
-  if (name.value === '' || name.value == null) {
-    messages.push('Name is required')
-  }
+  if (password.value.length <= 6) {
+    messages.push('Password must be longer than six characters');
+}
 
   if (messages.length > 0) {
     e.preventDefault()
