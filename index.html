@@ -80,11 +80,11 @@
         <div id="error"></div>
         <div>
             <h3><label id="f-name">Name:</label></h3>
-            <input type="text" class="txt" required>
+            <input type="text" class="txt" required placeholder="Your Name">
         </div>
         <div>
             <h3><label id="e-mail">E-mail:</label></h3>
-            <input type="e-mail" class="txt" required><br>
+            <input type="e-mail" class="txt" required pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" placeholder="Your E-mail"><br>
         </div>  
             <h3><label>How was your visit?</label></h3>
             <input type="radio" id="unsatisfactory" name="option" class="rd-btn"><label class="text-label">Unsatisfactory</label><br>
@@ -95,7 +95,7 @@
         <input type="submit" class="submit">
     </form>
     <!-- Footer -->
-    <footer><p>&copy;2020 Tyler Pedigo Media</p>
+    <footer class="footer"><p>&copy;2020 Tyler Pedigo Media</p>
         <nav class="social-nav">
         <a href="#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-twitter"></a>

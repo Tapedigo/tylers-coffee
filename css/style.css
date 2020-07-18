@@ -5,11 +5,6 @@
     margin: 0;
 }
 
-html,
-body {
-    height: 100%;
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #829FD9;
@@ -27,6 +22,8 @@ footer {
     height: 3.5em;
     background-color: #6D85B5;
     display: flex;
+    justify-content: flex-start;
+    padding-left: 1em;
 }
 
 footer p {
@@ -51,11 +48,6 @@ header a {
    padding-bottom: 1em;
 }
 
-footer {
-    justify-content: flex-start;
-    padding-left: 1em;
-}
-
 /* Base Style Classes */
 
 
@@ -77,6 +69,7 @@ footer {
 
 .content {
     margin-top: 3rem;
+    min-height: 100%;
 }
 
 .content h2 {
@@ -87,15 +80,25 @@ footer {
 .content p {
     padding-left: 5%;
     padding-right: 5%;
-    margin-bottom: 3em;
     margin-top: 1em;
+    margin-bottom: 4em;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
+.box-1 {
+    padding-bottom: 1em;
+}
+
+.footer-container {
+    margin-top: auto;
+}
+
+/* Menu.html Classes */
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 /* Images */
@@ -105,13 +108,20 @@ footer {
     width: 100%;
 }
 
+/* Menu.html Images */
+
+#coffee1 {
+    width: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Images Carousel */
 
 .swiper-container {
-    height: 95%;
-    width: 95%;
-    max-height: 580px;
-    max-width: 960px;
+    max-height: 360px;
+    max-width: 640px;
 }
 
 .swiper-slide {
@@ -132,9 +142,9 @@ textarea {
 
 
 form {
-    margin: 0 auto 5em;
+    margin: 1em auto 5em;
     width: 90%;
-    padding-top: 1em;
+    padding-top: 0em;
 }
 
 form li {
@@ -251,12 +261,17 @@ a:active {
     cursor: grabbing;
 }
 
+/* Media Queries */
 
-input:invalid:required {
-    border: solid 2px red;
+@media (min-width: 580px) {
+
+/* Menu.html Images */
+
+#coffee1 {
+    width: 580px;
 }
 
-/* Media Queries */
+}
 
 @media (min-width: 780px) {
 
@@ -289,10 +304,11 @@ input:invalid:required {
         padding-right: 2em;
     }
 
-    /* Images Media Query 1 */
+    /* Menu.html Images Media Query 1 */
 
-   
-
+    #coffee1 {
+        width: 640px;
+    }
 
     /* Classes Media Query 1 */
 
@@ -314,9 +330,17 @@ input:invalid:required {
         display: flex;
     }
 
+    /* Menu.html Classes Media Query 1 */
+
+    .table {
+        flex: 1;
+        flex-direction: row;
+    }
+
     .box-1 {
         flex: 1;
         flex-direction: column;
+        padding-bottom: 0;
     }
 
     .box-2 {
@@ -347,6 +371,11 @@ input:invalid:required {
         margin-top: 1.25em;
     }
 
+    form {
+        max-height: 512px;
+        max-width: 1040px;
+    }
+
     /* Classes Media Query 2 */
 
     .main-header {
@@ -363,11 +392,16 @@ input:invalid:required {
         padding-right: 2rem;
     }
 
-    /* Images Media Query 2 */
-
-    form {
-        max-height: 512px;
-        max-width: 1040px;
+    .swiper-container {
+        max-height: 580px;
+        max-width: 960px;
     }
+
+    /* Menu.html Images Media Query 2 */
+
+    #coffee1 {
+        width: 720px;
+    }
+
 }
 
