@@ -5,9 +5,17 @@
     margin: 0;
 }
 
+html,
+body {
+    height: 100%;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #829FD9;
+    position: relative;
+    min-height: 100%;
+    overflow-x: hidden;
 }
 
 a {
@@ -36,15 +44,6 @@ header {
     font-family: old-century;
 }  
 
-.main-header,
-.main-nav {
-    display: flex;
-    flex-direction: column;
-}
-
-.main-nav {
-    padding-top: 1em;
-}
 
 header a {
    text-align: center;
@@ -66,6 +65,16 @@ footer {
     padding-top: 1rem;
 }
 
+.main-header,
+.main-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-nav {
+    padding-top: 1em;
+}
+
 .content {
     margin-top: 3rem;
 }
@@ -80,6 +89,13 @@ footer {
     padding-right: 5%;
     margin-bottom: 3em;
     margin-top: 1em;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
 /* Images */
@@ -233,6 +249,11 @@ a:active {
 
 .submit:active {
     cursor: grabbing;
+}
+
+
+input:invalid:required {
+    border: solid 2px red;
 }
 
 /* Media Queries */
