@@ -94,11 +94,22 @@ header a {
 
 /* Menu.html Styles */
 
+table,
+th,
+td {
+    border-bottom: 1px solid black;
+    margin: 0;
+    border-collapse: collapse;
+}
+
 tr {
     box-sizing: border-box;
     background: #C9D0DF;
     width: 250px;
-    border-bottom: 1px solid black;
+}
+
+td {
+    width: 33%;
 }
 
 /* Menu.html Classes */
