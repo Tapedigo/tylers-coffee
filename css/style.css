@@ -92,6 +92,15 @@ header a {
     margin-top: auto;
 }
 
+/* Menu.html Styles */
+
+tr {
+    box-sizing: border-box;
+    background: #C9D0DF;
+    width: 250px;
+    border-bottom: 1px solid black;
+}
+
 /* Menu.html Classes */
 
 .table {
@@ -99,6 +108,7 @@ header a {
     margin-right: auto;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    width: 250px
 }
 
 /* Images */
