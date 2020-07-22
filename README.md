@@ -12,4 +12,5 @@ This project contains
 3. HTML form element which checks for input before submitting.
 4. Social media buttons in footer.
 
+
 I have also included comments to help organize my code.
