@@ -18,6 +18,10 @@ a {
     color: white;
 }
 
+label {
+    padding-bottom: 2em;
+}
+
 footer {
     height: 3.5em;
     background-color: #6D85B5;
@@ -54,15 +58,6 @@ header a {
 
 /* Base Style Classes */
 
-.all-content {
-    position: relative;
-    min-height: 100vh;
-}
-
-.body-content {
-    padding-bottom: 3.5em;
-} 
-
 .main-header h1 {
     text-align: center;
     color: #ffffff;
@@ -81,7 +76,6 @@ header a {
 
 .content {
     margin-top: 3rem;
-    min-height: 100%;
 }
 
 .content h2 {
@@ -102,6 +96,10 @@ header a {
 
 .footer-container {
     margin-top: auto;
+}
+
+.titles {
+    text-align: center;
 }
 
 /* Menu.html Styles */
@@ -126,6 +124,33 @@ td {
     width: 7rem;
     height: 1.75rem;
     text-align: center;
+}
+
+/* Employment.html Styles */
+
+.all-content {
+    position: relative;
+    min-height: 100vh;
+}
+
+.body-content {
+    padding-bottom: 3.5em;
+} 
+
+.content-employment-html {
+    margin-top: 3rem;
+}
+
+.content-employment-html h2 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.content-employment-html p {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 1em;
+    margin-bottom: 4em;
 }
 
 /* Images */
@@ -169,7 +194,7 @@ textarea {
 
 
 form {
-    margin: 1em auto 5em;
+    margin: 3em auto 5em;
     width: 90%;
     padding-top: 0em;
 }
@@ -200,7 +225,7 @@ form li {
 .submit {
     width: 5rem;
     height: 2rem;
-    margin-top: 1%;
+    margin-top: 3rem;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -256,6 +281,10 @@ form li {
 #satisfactory {
     margin-left: 2.5%;
 }
+
+/* Employment.html Form Elements */
+
+
 
 /* Pseudo-classes */
 
@@ -377,7 +406,7 @@ a:active {
     .submit {
         width: 8rem;
         height: 1.75rem;
-        margin-top: 1rem;
+        margin-top: 2rem;
     }
 }
 
