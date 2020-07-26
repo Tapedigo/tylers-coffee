@@ -39,10 +39,9 @@ footer p {
 }
 
 header {
-    background-color: #6D85B5 ;
+    background-color: #829FD9;
     height: 16em;
     width: 100%;
-    padding-bottom: 3em;
     margin-bottom: 2em;
     font-size: 1.1em;
     font-family: old-century;
@@ -367,19 +366,19 @@ a:active {
 
 @media (min-width: 580px) {
 
-/* Menu.html Images Media Query 1 */
+    /* Menu.html Images Media Query 1 */
 
-#coffee1 {
-    width: 580px;
-}
+    #coffee1 {
+        width: 580px;
+    }
 
-/* Employment.html Images Media Query 1 */
+    /* Employment.html Images Media Query 1 */
 
-#placeholder-employment  {
-    width: 580px;
-}
+    #placeholder-employment  {
+        width: 580px;
+    }
 
-}
+    }
 
 @media (min-width: 780px) {
 
@@ -399,6 +398,8 @@ a:active {
 
     header {
         height: 3.5rem;
+        background-color: #6D85B5;
+        padding-bottom: 3em;
     }
 
     header a {
