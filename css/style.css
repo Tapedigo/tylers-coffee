@@ -89,8 +89,8 @@ header a {
 
 .toggle-button {
     position: absolute;
-    top: .75rem;
-    right: 1rem;
+    top: .5rem;
+    left: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -234,6 +234,16 @@ td {
     margin-right: auto;
 }
 
+/* Employment.html Images */
+
+#placeholder-employment {
+    width: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    margin-bottom: 5em;
+}
+
 /* Images Carousel */
 
 .swiper-container {
@@ -357,9 +367,15 @@ a:active {
 
 @media (min-width: 580px) {
 
-/* Menu.html Images */
+/* Menu.html Images Media Query 1 */
 
 #coffee1 {
+    width: 580px;
+}
+
+/* Employment.html Images Media Query 1 */
+
+#placeholder-employment  {
     width: 580px;
 }
 
@@ -367,7 +383,7 @@ a:active {
 
 @media (min-width: 780px) {
 
-    /* Base Styles Media Query 1 */
+    /* Base Styles Media Query 2 */
     
     form {
         width: 75%;
@@ -392,13 +408,20 @@ a:active {
         padding-right: 2em;
     }
 
-    /* Menu.html Images Media Query 1 */
+    /* Menu.html Images Media Query 2 */
 
     #coffee1 {
         width: 640px;
     }
 
-    /* Classes Media Query 1 */
+    /* Employment.html Images Media Query 2 */
+
+    #placeholder-employment  {
+        width: 640px;
+    }
+
+
+    /* Classes Media Query 2 */
 
     .main-header {
         flex-direction: column;
@@ -424,7 +447,12 @@ a:active {
         display: none;
     }
 
-    /* Menu.html Classes Media Query 1 */
+    .swiper-container {
+        max-height: 580px;
+        max-width: 960px;
+    }
+
+    /* Menu.html Classes Media Query 2 */
 
     .table {
         flex: 1;
@@ -451,7 +479,7 @@ a:active {
 
 @media (min-width: 1250px) {
     
-    /* Base Styles Media Query 2 */
+    /* Base Styles Media Query 3 */
 
     header {
         height: 2rem;
@@ -470,7 +498,7 @@ a:active {
         max-width: 1040px;
     }
 
-    /* Classes Media Query 2 */
+    /* Classes Media Query 3 */
 
     .main-header {
         flex-direction: row;
@@ -486,16 +514,16 @@ a:active {
         padding-right: 2rem;
     }
 
-    .swiper-container {
-        max-height: 580px;
-        max-width: 960px;
-    }
+    /* Menu.html Images Media Query 3 */
 
-    /* Menu.html Images Media Query 2 */
-
-    #coffee1 {
+     #coffee1 {
         width: 720px;
     }
 
+    /* Employment.html Images Media Query 3 */
+
+    #placeholder-employment  {
+        width: 720px;
+    }
 }
 
