@@ -1,4 +1,5 @@
 // Image Carousel Swiper.js
+
 var swiper = new Swiper('.swiper-container', {
   slidesPerView: 1,
   spaceBetween: 30,
@@ -15,11 +16,9 @@ var swiper = new Swiper('.swiper-container', {
 
 // Hamburger Menu
 
-function myFunction() {
-  const x = document.querySelectorAll(".main-nav");
-  if (x.style.display === "block") {
-    x.style.display === "none";
-  } else {
-    x.style.display = "block";
-  }
-}
+const toggleButtton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('main-nav')[0]
+
+toggleButtton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+})

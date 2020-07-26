@@ -64,32 +64,45 @@ header a {
     color: white;
 }
 
-/* .main-header,
+.main-header h2 {
+    color: white;
+}
+
+.main-header,
 .main-nav {
     display: flex;
     flex-direction: column;
-} */
+}
 
 .main-nav {
     padding-top: 1em;
     display: none;
 }
 
-
-.top-nav {
-    /* overflow: hidden; */
-    position: relative;
+.main-nav.active {
+    display: flex;
 }
 
 .top-nav a {
     display: block;
 }
 
-.top-nav a.icon {
-    display: block;
+.toggle-button {
     position: absolute;
-    left: 0;
-    top: 0;
+    top: .75rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 31px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
 }
 
 .content {
@@ -118,6 +131,40 @@ header a {
 
 .titles {
     text-align: center;
+}
+
+.fa {
+    width: 40px;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    height: auto;
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55acee;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.social-nav {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: .5rem;
+}
+
+.social-nav a {
+    margin-left: 0em;
 }
 
 /* Menu.html Styles */
@@ -254,39 +301,7 @@ form li {
     padding-right: .25em;
 }
 
-.fa {
-    width: 40px;
-    font-size: 30px;
-    text-decoration: none;
-    text-align: center;
-    padding: 15px;
-    height: auto;
-}
 
-.fa-facebook {
-    background: #3b5998;
-    color: white;
-}
-
-.fa-twitter {
-    background: #55acee;
-    color: white;
-}
-
-.fa-google {
-    background: #dd4b39;
-    color: white;
-}
-
-.social-nav {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: .5rem;
-}
-
-.social-nav a {
-    margin-left: 0em;
-}
 
 /* Form IDs */
 
@@ -370,10 +385,6 @@ a:active {
         height: 3.5rem;
     }
 
-    .main-nav {
-        padding-top: 1rem;
-    }
-
     header a {
         padding-left: 2em;
         padding-top: 0;
@@ -401,10 +412,16 @@ a:active {
     .main-nav {
         display: flex;
         flex-direction: row;
+        padding-top: 1rem;
+        display: flex;
     }
 
     .content {
         display: flex;
+    }
+
+    .toggle-button {
+        display: none;
     }
 
     /* Menu.html Classes Media Query 1 */
